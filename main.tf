@@ -27,7 +27,7 @@ provider "azurerm" {
 resource "azurerm_resource_group" "rg" {
   name     = "813-197d327e-hands-on-with-terraform-on-azure"
   location = "westus"
-  
+
 }
 
 module "securestorage" {
